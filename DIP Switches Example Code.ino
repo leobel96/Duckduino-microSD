@@ -232,6 +232,11 @@ void Press(String b)
   {
     Keyboard.press(KEY_F12);
   }
+    else if (b.equals("MENU"))
+  {
+    Keyboard.press(KEY_LEFT_SHIFT);
+    Keyboard.press(KEY_F10);
+  }
 }
 
 void loop() {
